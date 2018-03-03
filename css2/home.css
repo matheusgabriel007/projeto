@@ -1,0 +1,345 @@
+article#corpo section.fazerPedido {
+	width: 100%;
+	height: 800px;
+	background: url(../imagens/bg-fazerPedido.jpg) no-repeat center center;
+	position: relative;
+
+}
+
+article#corpo section.fazerPedido div#englobaFazerPedido {
+	width: 1200px;
+	height: 800px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+
+h1.h1Titulo {
+	font-family: 'angrybirds';
+	font-size: 30px;
+	color: #EEE;
+	text-align: center;
+	padding-top: 20px;
+}
+
+hr.hrEstiloFP {
+	background-color: #EEE;
+	width: 1200px;
+	height: 2px;
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+p.pSubtitulo {
+	font-family: 'roboto', verdana, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #e97027;
+	text-align: center;
+	padding-top: 15px;
+}
+
+article#corpo section.fazerPedido div#englobaFazerPedido div.boxFP {
+	width: 390px;
+	height: 570px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 15px;
+	display: inline-block;
+}
+
+article#corpo section.fazerPedido div#englobaFazerPedido div.boxFP:nth-child(6){
+	margin-right: 0;
+}
+
+
+article#corpo section.fazerPedido div#englobaFazerPedido div.boxFP div.tituloFP {
+	width: 390px;
+	height: 60px;
+	float: left;
+	background-color: #e97027;
+	color: #EEE;
+	text-align: center;
+	border-radius: 20px 20px 0px 0px;
+}
+
+article#corpo section.fazerPedido div#englobaFazerPedido div.boxFP div.tituloFP h2.tituloH2 {
+	font-family: 'angrybirds';
+	font-size: 24px;
+	color: #EEE;
+	margin-top: 18px;
+}
+
+
+article#corpo section.fazerPedido div#englobaFazerPedido div.boxFP img {
+	float: left;
+}
+
+article#corpo section.fazerPedido div#englobaFazerPedido div.boxFP div.descricaoFP {
+	width: 390px;
+	height: 210px;
+	float: left;
+	background-color: #EEE;
+	color: #EEE;
+}
+
+div.englobaDescricaoFP {
+	width: 375px;
+	height: 30px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 15px;
+
+}
+
+span.icon-verificacao {
+	width: 30px;
+	height: 27px;
+	display: block;
+	background-image: url(../imagens/icon-verificacao.png);
+	float: left;
+}
+
+p.pDescricaoFP {
+	float: left;
+	font-family: 'angrybirds';
+	font-size: 30px;
+	color: #34210d;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+a.botao_enviar_index {
+	width: 1200px;
+	height: 50px;
+	background-color: #EEE;
+	margin: 0 auto;
+	float: left;
+	display: block;
+	color: #e97027;
+	text-align: center;
+	clear: both;
+	margin-top: 15px;
+	text-decoration: none;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+a.botao_enviar_index:hover {
+	background-color: #e97027;
+	color: #EEE;
+
+}
+
+p.p_botao_enviar_index {
+	font-size: 26px;
+	font-family: 'angrybirds';
+	margin-top: 10px;
+}
+
+article#corpo section.vantagens div.englobaVantagens{
+	width: 1200px;
+	height: 520px;
+	margin: 0 auto;
+}
+
+article#corpo section.vantagens div.englobaVantagens div.pediu_chegou,
+article#corpo section.vantagens div.englobaVantagens div.preco_acessivel,
+article#corpo section.vantagens div.englobaVantagens div.frete_gratis{
+	width: 390px;
+	height: 390px;
+	float: left;
+	margin-right: 15px;
+}
+article#corpo section.vantagens div.englobaVantagens div.frete_gratis {
+	margin-right: 0;
+}
+
+article#corpo section.vantagens div.englobaVantagens div.pediu_chegou img.imgVantagens,
+article#corpo section.vantagens div.englobaVantagens div.preco_acessivel img.imgPreco_acessivel,
+article#corpo section.vantagens div.englobaVantagens div.frete_gratis img.imgFrete_gratis {
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 25px;
+	margin-top: 25px;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+article#corpo section.vantagens div.englobaVantagens div.pediu_chegou img.imgVantagens:hover,
+article#corpo section.vantagens div.englobaVantagens div.preco_acessivel img.imgPreco_acessivel:hover,
+article#corpo section.vantagens div.englobaVantagens div.frete_gratis img.imgFrete_gratis:hover {
+	-webkit-transform:rotate(-30deg);
+    -moz-transform:rotate(-30deg); 
+    -o-transform:rotate(-30deg);
+}
+
+
+
+article#corpo section.vantagens div.englobaVantagens div.pediu_chegou h2.h2Vantagens,
+article#corpo section.vantagens div.englobaVantagens div.preco_acessivel h2.h2Preco_acessivel,
+article#corpo section.vantagens div.englobaVantagens div.frete_gratis h2.h2Frete_gratis{
+	font-size: 30px;
+	font-family: 'angrybirds';
+	color: #e97027;
+	text-align: center;
+}
+
+article#corpo section.vantagens div.englobaVantagens div.pediu_chegou p.pVantagens,
+article#corpo section.vantagens div.englobaVantagens div.preco_acessivel p.pPreco_acessivel,
+article#corpo section.vantagens div.englobaVantagens div.frete_gratis p.pFrete_gratis{
+	font-size: 20px;
+	font-family: 'roboto';
+	text-align: center;
+	padding-top: 15px;
+	color: #34210d;
+}
+
+
+article#corpo section.contato_index {
+	width: 100%;
+	height: 530px;
+	margin: 0 auto;
+	background: url(../imagens/bg-contatoIndex.jpg) no-repeat center center;
+}
+
+article#corpo section.contato_index div.englobaContato_index {
+	width: 1200px;
+	height: 530px;
+	margin: 0 auto;
+}
+
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.assunto{
+	width: 577.5px;
+	height: 50px;
+	float: left;
+	background-color: #EEE;
+	font-size: 20px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	margin-right: 15px;
+	padding-left: 15px;
+	margin-top: 20px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.nome{
+	width: 577.5px;
+	height: 50px;
+	float: left;
+	background-color: #EEE;
+	font-size: 20px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	padding-left: 15px;
+	margin-top: 20px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.telefone{
+	width: 577.5px;
+	height: 50px;
+	float: left;
+	background-color: #EEE;
+	font-size: 20px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	margin-right: 15px;
+	padding-left: 15px;
+	margin-top: 15px;
+}
+
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.email{
+	width: 577.5px;
+	height: 50px;
+	float: left;
+	background-color: #EEE;
+	font-size: 20px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	padding-left: 15px;
+	margin-top: 15px;
+}
+
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.assunto:focus,
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.nome:focus,
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.telefone:focus,
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.email:focus,
+article#corpo section.contato_index div.englobaContato_index form.formIndex textarea.mensagem:focus{
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-size: 20px;
+
+}
+
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.assunto:focus,
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.nome:focus,
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.telefone:focus,
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.email:focus{
+	width: 572.5px;
+	border-style: solid;
+    border-left: 5px solid #e97027;
+}
+
+article#corpo section.contato_index div.englobaContato_index form.formIndex textarea.mensagem{
+	min-width: 1185px;
+	max-width: 1185px;
+	height: 50px;
+	max-height: 60px;
+	float: left;
+	background-color: #EEE;
+	font-size: 20px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 105px;
+	margin-top: 15px;
+}
+
+article#corpo section.contato_index div.englobaContato_index form.formIndex textarea.mensagem:focus{
+	min-width: 1180px;
+	max-width: 1180px;
+	border-left: 5px solid #e97027;
+
+}
+
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.botao_enviar_index_contato{
+	width: 1200px;
+	height: 50px;
+	background-color: #EEE;
+	margin: 0 auto;
+	float: left;
+	display: block;
+	color: #e97027;
+	text-align: center;
+	clear: both;
+	margin-top: 15px;
+	text-decoration: none;
+	font-family: 'angrybirds';
+	font-size: 26px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.botao_enviar_index_contato:focus {
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+ 
+article#corpo section.contato_index div.englobaContato_index form.formIndex input.botao_enviar_index_contato:hover{
+	background-color: #e97027;
+	color: #EEE;
+	cursor: pointer;
+}
+
+
+article#corpo section.mapaIndex {
+	width: 100%;
+	height: 400px;
+	pointer-events:none;
+	margin: 0 auto;
+}

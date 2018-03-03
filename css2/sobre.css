@@ -1,0 +1,39 @@
+article#corpo section.texto_sobre  {
+	width: 1200px;
+	height: 800px;
+	/* Tamanho anterior height: 960px;*/
+	margin: 0 auto;
+}
+article#corpo section.texto_sobre div.englobaTexto_sobre {
+	width: 1030px;
+	height: 400px;
+	margin-left: 90px;
+	float: left;
+}
+article#corpo section.texto_sobre div.englobaTexto_sobre h1.tituloMissao,
+article#corpo section.texto_sobre div.englobaTexto_sobre h1.tituloVisao,
+article#corpo section.texto_sobre div.englobaTexto_sobre h1.tituloValores {
+	font-family: 'angrybirds';
+	font-size: 40px;
+	color: #e97027;
+	float: left;
+	margin-top: 70px;
+	margin-left: 20px;
+}
+article#corpo section.texto_sobre div.englobaTexto_sobre img.imgMissao,
+article#corpo section.texto_sobre div.englobaTexto_sobre img.imgVisao,
+article#corpo section.texto_sobre div.englobaTexto_sobre img.imgValores {
+	float: left;
+	margin-top: 70px;
+	width: 43px;
+}
+article#corpo section.texto_sobre div.englobaTexto_sobre p.pMissao,
+article#corpo section.texto_sobre div.englobaTexto_sobre p.pVisao,
+article#corpo section.texto_sobre div.englobaTexto_sobre p.pValores {
+	font-size: 20px;
+	float: left;
+	font-family: 'roboto';
+	text-align: justify;
+	margin-top: 30px;
+	color: #34210d;	
+}

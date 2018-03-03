@@ -1,0 +1,318 @@
+* {
+	border:0;
+	margin: 0;
+	padding: 0;
+}
+/*FONTE PARA TÍTULOS*/
+@font-face{
+	font-family: 'angrybirds';
+	src: url(../fontes/angrybirds.ttf);
+}
+
+/*FONTE PARA PARÁGRAFOS*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*FONTE PARA REDES SOCIAIS*/
+@font-face{
+	font-family: 'rede-social';
+	src: url("../fontes/rede-social.otf");
+}
+
+body {
+	background-image: url("../imagens/bg.jpg");
+}
+/*========== CABECALHO ==========*/
+header#cabecalho div#divisoria1 {
+	width: 100%;
+	height: 5px;
+	background-color: #e97027;
+	margin: auto;
+}
+
+header#cabecalho section#divisoriaContato {
+	width: 100%;
+	height: 40px;
+	background-color: #34210d;
+	margin: auto;
+}
+
+header#cabecalho section#divisoriaContato div#englobaDivisoriaContato {
+	width: 1200px;
+	height: 40px;
+	margin: auto;
+}
+
+header#cabecalho section#divisoriaContato div#englobaDivisoriaContato div#redesSociais {
+	width: 150px;
+	height: 40px;
+	float: left;
+}
+
+header#cabecalho section#divisoriaContato div#englobaDivisoriaContato div#redesSociais a h1.tamanhoRedeSocialTop {
+	color: #EEE;
+	font-size: 25px;
+	margin: 8px 10px 0px 0px;
+	float: left;
+}
+
+header#cabecalho section#divisoriaContato div#englobaDivisoriaContato div#redesSociais a h1.tamanhoRedeSocialTop:hover {
+	color: #e97027;
+}
+
+header#cabecalho section#divisoriaContato div#englobaDivisoriaContato p.contatoTop {
+	font-family: 'angrybirds';
+	font-size: 20px;
+	color: #EEE;
+	float: right;
+	margin-top: 8px;
+}
+
+header#cabecalho section.divisoria2Cabecalho {
+	width: 100%;
+	height: 150px;
+	margin: auto;
+}
+
+header#cabecalho section.divisoria2Cabecalho div#englobaDivisoria2Cabecalho {
+	width: 1200px;
+	height: 150px;
+	margin: auto;
+}
+
+header#cabecalho section.divisoria2Cabecalho div#englobaDivisoria2Cabecalho img#logo {
+	margin-top: 13px;
+	float: left;
+	clear: none;
+	position: relative;
+}
+
+
+/*========== FIM CABECALHO ==========*/
+
+/*========== LOGIN E INPUT BUSCAR ==========*/
+
+header#cabecalho section.divisoria2Cabecalho div#englobaLoginInput {
+	width: 470px;
+	height: 50px;
+	display: block;
+	float: right;
+	margin-top: 35px;
+	margin-bottom: 10px;
+}
+
+header#cabecalho section.divisoria2Cabecalho div#englobaLoginInput input.inputTop {
+	width: 300px;
+	height: 30px;
+	padding: 5px;
+	background-color: #f2f2f2;
+	font-size: 18px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	float: right;
+	position: relative;
+	border: 1px solid #000;
+	border-radius: 5px;
+
+}
+header#cabecalho section.divisoria2Cabecalho div#englobaLoginInput input.inputTop:focus {
+	width: 295px;
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border: 1px solid #000;
+	border-radius: 5px;
+	border-left: 5px solid #e97027;
+}
+
+
+header#cabecalho section.divisoria2Cabecalho div#englobaLoginInput p {
+	font-size: 20px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	float: left;
+	margin-top: 10px;
+
+
+}
+
+header#cabecalho section.divisoria2Cabecalho div#englobaLoginInput p a {
+	font-family: 'angrybirds';
+	text-decoration: none;
+	color: #34210d;
+
+}
+
+header#cabecalho section.divisoria2Cabecalho div#englobaLoginInput p a:hover {
+	color: #e97027;
+
+}
+
+/*========== FIM LOGIN E INPUT BUSCAR ==========*/
+
+/*========== MENU ==========*/
+
+header#cabecalho section.divisoria2Cabecalho nav#menu{
+	width: 720px;
+	height: 30px;
+	float: right;
+}
+header#cabecalho section.divisoria2Cabecalho nav#menu ul {
+	list-style: none;
+	display: inline-block;
+	float: right;
+}
+
+header#cabecalho section.divisoria2Cabecalho nav#menu ul li.liMenu {
+	float: left;
+	margin-left: 60px;
+	font-size: 24px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	display: inline-block;
+}
+
+header#cabecalho section.divisoria2Cabecalho nav#menu ul li#liUm {
+	margin-left: 0;
+}
+
+header#cabecalho section.divisoria2Cabecalho nav#menu ul li.liMenu:hover {
+	color: #e97027;
+}
+
+/*========== FIM MENU ==========*/
+
+/*========== SLIDE ==========*/
+
+section.slide{
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+/*========== FIM SLIDE  ==========*/
+
+/*========== CORPO ==========*/
+
+/*article#corpo {
+	width: 1200px;
+	height: 2000px;
+	background-color: #EEE;
+	margin: 0 auto;
+}*/
+
+
+/*========== FIM CORPO ==========*/
+
+/*========== RODAPÉ ==========*/
+
+footer.rodape {
+	width: 100%;
+	height: 295px;
+	background-color: purple;
+	margin: 0 auto;
+}
+
+footer.rodape div#redesSociaisFooter {
+	width: 100%;
+	height: 220px;
+	background: url("../imagens/bg-footer.jpg") no-repeat center center;
+	background-color: #f2f2f2;
+	margin: 0 auto;
+}
+
+footer.rodape div#redesSociaisFooter div#englobaSocialFooter {
+	width: 1200px;
+	height: 220px;
+	margin: 0 auto;
+}
+
+
+footer.rodape div#redesSociaisFooter div#voltaInicio {
+
+	width: 70px;
+	height: 50px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+footer.rodape div#redesSociaisFooter div#voltaInicio a h1 {
+	color: #EEE;
+	font-size: 53px;
+	margin-top: 50px;
+	float: left;
+}
+
+footer.rodape div#redesSociaisFooter div#redesSociais{
+	width: 220px;
+	height: 70px;
+	margin:0 auto;
+}
+
+footer.rodape div#redesSociaisFooter div#voltaInicio a h1:hover {
+	color: #e97027;
+}
+
+footer.rodape div#redesSociaisFooter div#redesSociais a h1{
+	color: #EEE;
+	font-size: 43px;
+	margin-right: 10px;
+	margin-top: 25px;
+	float: left;
+}
+
+footer.rodape div#redesSociaisFooter div#redesSociais a h1:hover{
+	color: #e97027;
+}
+
+footer.rodape div#direitosLinhaCima {
+	width: 100%;
+	height: 5px;
+	background-color: #e97027;
+	margin: 0 auto;
+}
+
+footer.rodape div#direitosReservados {
+	width: 100%;
+	height: 70px;
+	background-color: #34210d;
+	margin: 0 auto;
+	float: left;
+}
+
+footer.rodape div#direitosReservados p {
+	font-size: 20px;
+	font-family: 'angrybirds';
+	color: #EEE;
+	margin-top: 25px;
+}
+
+
+
+/*========== FIM RODAPÉ ==========*/
+
+
+/*========== PERSONALIZAÇÃO DA ROLAGEM ==========*/
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+    background-color: #EEE;
+    border-left: 1px solid #CCC;
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #e97027;
+}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #34210d;
+}
+
+/*========== FIM PERSONALIZAÇÃO DA ROLAGEM ==========*/

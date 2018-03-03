@@ -1,0 +1,245 @@
+article#corpo section.texto_contato  {
+	width: 1200px;
+	height: 1130px;
+	margin: 0 auto;
+}
+
+article#corpo section.texto_contato div.englobaTexto_contato {
+	width: 1200px;
+	height: 300px;
+	float: left;
+}
+
+article#corpo section.texto_contato div.englobaTexto_contato h1.tituloContato {
+	font-family: 'angrybirds';
+	font-size: 30px;
+	color: #e97027;
+	text-align: left;
+	margin-top: 30px;
+
+}
+
+article#corpo section.texto_contato div.englobaTexto_contato p.pContato {
+	font-family: 'roboto';
+	margin-top: 10px;
+	color: #34210d;
+	float: left;
+	max-width: 1200px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+article#corpo section.texto_contato form.formContato {
+	width: 1200px;
+	height: 385px;
+	margin: 0 auto;
+	clear: both;
+}
+
+article#corpo section.texto_contato form.formContato input.assuntoContato:focus,
+article#corpo section.texto_contato form.formContato input.nomeContato:focus,
+article#corpo section.texto_contato form.formContato input.telefoneContato:focus,
+article#corpo section.texto_contato form.formContato input.emailContato:focus,
+article#corpo section.texto_contato form.formContato textarea.mensagemContato:focus{
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-size: 20px;
+
+}
+
+article#corpo section.texto_contato form.formContato input.assuntoContato {
+	width: 577.5px;
+	height: 50px;
+	float: left;
+	background-color: #EEE;
+	margin-top: 30px;
+	padding-left: 15px;
+	border-radius: 20px 0px 0px 0px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	font-size: 20px;
+	border: 1px solid #000;
+	border-radius: 20px 0px 0px 0px;
+}
+
+article#corpo section.texto_contato form.formContato input.nomeContato {
+	width: 577.5px;
+	height: 50px;
+	float: right;
+	background-color: #EEE;
+	margin-top: 30px;
+	padding-left: 15px;
+	border-radius: 20px 0px 0px 0px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	font-size: 20px;
+	border: 1px solid #000;
+	border-radius: 0px 20px 0px 0px;
+}
+
+article#corpo section.texto_contato form.formContato input.telefoneContato {
+	width: 577.5px;
+	height: 50px;
+	float: left;
+	background-color: #EEE;
+	margin-top: 10px;
+	padding-left: 15px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	font-size: 20px;
+	border: 1px solid #000;
+	border-radius: 0px 0px 0px 0px;
+}
+
+article#corpo section.texto_contato form.formContato input.emailContato {
+	width: 577.5px;
+	height: 50px;
+	float: right;
+	background-color: #EEE;
+	margin-top: 10px;
+	padding-left: 15px;
+	font-family: 'angrybirds';
+	color: #34210d;
+	font-size: 20px;
+	border: 1px solid #000;
+	border-radius: 0px 0px 0px 0px;
+}
+
+article#corpo section.texto_contato form.formContato textarea.mensagemContato {
+	width: 1183px;
+	max-width: 1185px;
+	height: 150px;
+	max-height: 170px;
+	float: right;
+	background-color: #EEE;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-top: 15px;
+	color: #34210d;
+	font-size: 20px;
+	font-family: 'angrybirds';
+	border: 1px solid #000;
+	border-radius: 0px 0px 0px 0px;
+}
+
+
+article#corpo section.texto_contato form.formContato input.botao_enviar_index_contato:focus {
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+ 
+article#corpo section.texto_contato form.formContato input.botao_enviar_index_contato {
+	width: 1200px;
+	height: 50px;
+	float: right;
+	background-color: #e97027;
+	margin-top: 10px;
+	padding-left: 15px;
+	border-radius: 0px 0px 20px 20px;
+	color: #eee;
+	text-align: center;
+	clear: both;
+	text-decoration: none;
+	font-family: 'angrybirds';
+	font-size: 26px;
+}
+
+article#corpo section.texto_contato form.formContato input.botao_enviar_index_contato:hover {
+	background-color: #34210d;
+	color: #eee;
+	cursor: pointer;
+}
+
+article#corpo section.texto_contato form.formContato input.assuntoContato:focus,
+article#corpo section.texto_contato form.formContato input.nomeContato:focus,
+article#corpo section.texto_contato form.formContato input.telefoneContato:focus,
+article#corpo section.texto_contato form.formContato input.emailContato:focus{
+	width: 573.5px;
+	color: #34210d;
+	font-size: 20px;
+	font-family: 'angrybirds';
+   	border: 1px solid #000;
+	border-style: solid;
+    border-left: 5px solid #e97027;
+
+}
+
+article#corpo section.texto_contato form.formContato textarea.mensagemContato:focus{
+	width: 1180px;
+	color: #34210d;
+	font-size: 20px;
+	font-family: 'angrybirds';
+   	border: 1px solid #000;
+	border-style: solid;
+    border-left: 5px solid #e97027;
+
+}
+
+article#corpo section.texto_contato section.englobaBoxInfo {
+	width: 1200px;
+	height: 460px;
+	margin: 0 auto;
+	clear: both;
+}
+
+article#corpo section.texto_contato section.englobaBoxInfo div.box_telefone {
+	width: 390px;
+	height: 390px;
+	margin-right: 15px;
+	float: left;
+	background-color: black;
+	margin-top: 40px;
+	background: url(../imagens/boxContato.jpg);
+}
+
+article#corpo section.texto_contato section.englobaBoxInfo div.box_telefone img,
+article#corpo section.texto_contato section.englobaBoxInfo div.box_whatsapp img,
+article#corpo section.texto_contato section.englobaBoxInfo div.box_email img{
+	margin: 0 auto;
+	display: block;
+	margin-top: 69px;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+article#corpo section.texto_contato section.englobaBoxInfo div.box_telefone img:hover,
+article#corpo section.texto_contato section.englobaBoxInfo div.box_whatsapp img:hover,
+article#corpo section.texto_contato section.englobaBoxInfo div.box_email img:hover{
+	-webkit-transform:rotate(-30deg);
+    -moz-transform:rotate(-30deg); 
+    -o-transform:rotate(-30deg);
+}
+
+article#corpo section.texto_contato section.englobaBoxInfo div.box_telefone p.pBox_Contato,
+article#corpo section.texto_contato section.englobaBoxInfo div.box_whatsapp p.pBox_Contato,
+article#corpo section.texto_contato section.englobaBoxInfo div.box_email p.pBox_Contato {
+ 	font-size: 35px;
+	font-family: 'angrybirds';
+	color: #EEE;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+article#corpo section.texto_contato section.englobaBoxInfo div.box_whatsapp {
+	width: 390px;
+	height: 390px;
+	margin-right: 15px;
+	float: left;
+	background-color: black;
+	margin-top: 40px;
+	background: url(../imagens/boxContato.jpg);
+}
+
+article#corpo section.texto_contato section.englobaBoxInfo div.box_email {
+	width: 390px;
+	height: 390px;
+	float: right;
+	background-color: black;
+	margin-top: 40px;
+	background: url(../imagens/boxContato.jpg);
+}
